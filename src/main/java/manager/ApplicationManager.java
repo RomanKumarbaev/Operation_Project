@@ -33,7 +33,7 @@ public class ApplicationManager {
         }
 
         wd.navigate().to("https://demoqa.com/");
-        wd.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         //Alisa
         wd.manage().window().maximize();
         QA= new QAToolsHelper(wd);

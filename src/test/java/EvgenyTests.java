@@ -13,16 +13,18 @@ public class EvgenyTests extends TestBase {
         String CurAddress = "Ashkelon, Ben-Gurion 5";
         String PerAddress = "Gaza , Hamas";
 
+        app.getHUBE().clickOnElements();
+
+        app.getHUBE().OpenTextBox();
+        app.getHUBE().fillForm("Evgeny Piyanzin","Pivivar555@yandex.ru",
+                "Ashkelon, Ben-Gurion 5","Gaza , Hamas");
+        app.getHUBE().clickSubmit();
 
 
 
-        app.clickOnElement();
-        app.openSecondElementTab();
-        app.fillFullName(FullName);
-        app.fillEmail(Email);
-        app.fillCurrentAddress(CurAddress);
-        app.fillPermanentAddress(PerAddress);
-        app.clickOntheSubmitButton();
+
+
+
 
 
     }
