@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,10 @@ public class EvgenyTests extends TestBase {
         String PerAddress = "Gaza , Hamas";
 
 
-        app.openTestBoxTab();
+
+
+        app.clickOnElement();
+        app.openSecondElementTab();
         app.fillFullName(FullName);
         app.fillEmail(Email);
         app.fillCurrentAddress(CurAddress);

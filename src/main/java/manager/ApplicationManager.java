@@ -16,6 +16,7 @@ public class ApplicationManager {
     EventFiringWebDriver wd;
     String browser;
     QAToolsHelper QA;
+    HelperUserByEvgeny HUBE;//Evg
 
 
     public ApplicationManager(String browser){
@@ -36,6 +37,7 @@ public class ApplicationManager {
         //Alisa
         wd.manage().window().maximize();
         QA= new QAToolsHelper(wd);
+        HUBE = new HelperUserByEvgeny(wd);//Evg
     }
     public void stop() {
 
@@ -46,7 +48,11 @@ public QAToolsHelper getQA(){
         return QA;
 }
 
-//Alisa
+    public HelperUserByEvgeny getHUBE() {
+        return HUBE;
+    }
+
+    //Alisa
 public void pause(int millis) {
     try {
         Thread.sleep(millis);
