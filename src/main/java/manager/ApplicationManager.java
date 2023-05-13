@@ -48,7 +48,7 @@ public QAToolsHelper getQA(){
         return QA;
 }
 
-    public HelperUserByEvgeny getHUBE() {
+    public HelperUserByEvgeny getHUBE() { //Evg
         return HUBE;
     }
 
