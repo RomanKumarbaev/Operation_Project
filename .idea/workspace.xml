@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9889038b-c71b-4060-aead-43748042b0c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUserByEvgeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUserByEvgeny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EvgenyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EvgenyTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.EvgenyTests">
+  <component name="RunManager" selected="Gradle.EvgenyTests.FillForm">
     <configuration name="Alisa_Tests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,8 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EvgenyTests" />
         <item itemvalue="Gradle.EvgenyTests.FillForm" />
+        <item itemvalue="Gradle.EvgenyTests" />
         <item itemvalue="Gradle.Alisa_Tests.clickonElements" />
         <item itemvalue="Gradle.Alisa_Tests (1)" />
         <item itemvalue="Gradle.Alisa_Tests.clickonElements" />

@@ -39,10 +39,7 @@ public class HelperUserByEvgeny extends HelperBase {
     {
         click(By.xpath("//textarea[@id='permanentAddress']"));
     }*/
-    public void clickSubmit()
-    {
-        click(By.xpath("//button[@id='submit']"));
-    }
+
 
     public void fillForm(String FullName,String Email,String CurAddress,String PerAddress)
     {
@@ -50,11 +47,12 @@ public class HelperUserByEvgeny extends HelperBase {
         type(By.xpath("//input[@id='userName']"),Email);
         type(By.xpath("//textarea[@id='currentAddress']"),CurAddress);
         type(By.xpath("//textarea[@id='permanentAddress']"),PerAddress);
-
-
-
     }
 
+    public void clickSubmit()
+    {
+        click(By.xpath("//button[@id='submit']"));
+    }
 
 
 
