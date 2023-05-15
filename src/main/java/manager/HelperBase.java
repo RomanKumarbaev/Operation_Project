@@ -31,6 +31,13 @@ public class HelperBase {
         wd.findElement(locator).click();
 
     }
+    public String textElement(By locator)
+    {
+        WebElement element = wd.findElement(locator);//For Assert//Evgeny
+        String text = element.getText();
+
+        return text;
+    }
     public void pause(int millis) {
         try {
             Thread.sleep(millis);

@@ -1,13 +1,11 @@
 package manager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -16,7 +14,7 @@ public class ApplicationManager {
     EventFiringWebDriver wd;
     String browser;
     QAToolsHelper QA;
-    HelperUserByEvgeny HUBE;//Evg
+    HelperUserByEvgeny user;//Evg
 
 
     public ApplicationManager(String browser){
@@ -37,7 +35,7 @@ public class ApplicationManager {
         //Alisa
         wd.manage().window().maximize();
         QA= new QAToolsHelper(wd);
-        HUBE = new HelperUserByEvgeny(wd);//Evg
+        user = new HelperUserByEvgeny(wd);//Evg
     }
     public void stop() {
 
@@ -48,8 +46,8 @@ public QAToolsHelper getQA(){
         return QA;
 }
 
-    public HelperUserByEvgeny getHUBE() { //Evg
-        return HUBE;
+    public HelperUserByEvgeny getUser() {
+        return user;
     }
 
     //Alisa
