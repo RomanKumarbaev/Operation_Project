@@ -1,12 +1,18 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.IOException;
+
 public class QAToolsHelper extends HelperBase{
+    Actions act = new Actions(wd);
+    JavascriptExecutor js = (JavascriptExecutor) wd;
 
     public QAToolsHelper(EventFiringWebDriver wd) {
         super(wd);
@@ -70,5 +76,51 @@ click(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']"));
            String par = element.getText();
            System.out.println("Radio button "+par+" isn't clickable");
        }
+    }
+// Roman's add
+    public void clickToButtons() {
+        click(By.xpath("//div[@class='element-list collapse show']//li[@id='item-4']"));
+    }
+// Roman's add
+    public void doubleClick() {
+        /*int i = 0;
+        while (i<=1){
+            click(By.xpath("//button[@id='doubleClickBtn']"));
+            ++i;
+        }*/
+        act.doubleClick(wd.findElement(By.xpath("//button[@id='doubleClickBtn']"))).perform();
+
+    }
+// Roman's add
+    public void rightClick() {
+    act.contextClick(wd.findElement(By.xpath("//button[@id='rightClickBtn']"))).perform();
+    }
+// Roman's add
+    public void clickMe() {
+        click(By.xpath("//button[normalize-space()='Click Me']"));
+    }
+// Roman's add
+    public void clickUploadAndDownload() {
+        //click(By.xpath("(//li[@id='item-7'])[1]"));
+
+        js.executeScript("arguments[0].scrollIntoView();",wd.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-7']")));
+        click(By.xpath("//div[@class='element-list collapse show']//li[@id='item-7']"));
+        pause(3000);
+
+
+    }
+// Roman's add
+    public void uploadFile(String filePath) throws IOException {
+
+/*click(By.xpath("//a[@id='downloadButton']"));
+        click(By.xpath("//input[@id='uploadFile']"));
+        Runtime.getRuntime().exec(filePath);
+        WebElement upload = wd.findElement(By.id("btnSave"));
+        upload.click();
+        pause(2000);*/
+
+        WebElement uploadPhoto = wd.findElement(By.xpath("//input[@id='uploadFile']"));
+        uploadPhoto.sendKeys(filePath);
+        pause(3000);
     }
 }

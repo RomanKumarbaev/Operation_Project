@@ -1,9 +1,11 @@
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class Roman_sTests extends TestBase{
+import java.io.IOException;
+
+public class Roman_sTests extends TestBase {
     @Test
-    public void testTextBox(){
+    public void testTextBoxTest() {
         app.getQA().clickToElements();
         app.getQA().clickTextBox();
         app.getQA().fillFullNameTextBox("Roman Kumarbaev");
@@ -14,8 +16,9 @@ public class Roman_sTests extends TestBase{
         app.getQA().resultsTestTextBox();
         app.getQA().pause(1500);
     }
+
     @Test
-    public void testRadioButton(){
+    public void testRadioButtonTest() {
         app.getQA().clickToElements();
         app.getQA().clickToRadioButton();
         app.getQA().clickToTheRadiobuttonYes();
@@ -24,17 +27,29 @@ public class Roman_sTests extends TestBase{
         app.getQA().pause(1000);
         app.getQA().isClicable();
         app.getQA().pause(1000);
-       // app.getQA().resultsTestRadioButton();
+        // app.getQA().resultsTestRadioButton();
 
     }
-    /*
+
     @Test
-    public void buttons(){
+    public void buttonsTest(){
+        app.getQA().clickToElements();
         app.getQA().clickToButtons();
         app.getQA().doubleClick();
+        app.getQA().pause(1000);
         app.getQA().rightClick();
+        app.getQA().pause(1000);
         app.getQA().clickMe();
-    }*/
+    }
+    @Test
+    public void uploadDownloadTest() throws IOException {
+        app.getQA().clickToElements();
+        app.getQA().pause(2000);
+        app.getQA().clickUploadAndDownload();
+        app.getQA().uploadFile("C:\\Users\\User\\Desktop\\Charles1.png");
+       // app.getQA().checkDownload();
+
+    }
 
 
 }

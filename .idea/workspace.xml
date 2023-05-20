@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99a23e91-d175-41aa-a5e1-fe32435d684a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/QAToolsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/QAToolsHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Roman_sTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Roman_sTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,8 +59,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.Roman_sTests">
+  <component name="RunManager" selected="Gradle.Roman_sTests.uploadDownloadTest (1)">
     <configuration name="Roman_sTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -76,7 +87,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Roman_sTests.example" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Roman_sTests.buttons" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Roman_sTests.example&quot;" />
+            <option value="&quot;Roman_sTests.buttons&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,7 +133,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Roman_sTests.testTextBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Roman_sTests.testTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +146,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Roman_sTests.testTextBox&quot;" />
+            <option value="&quot;Roman_sTests.testTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Roman_sTests.uploadDownloadTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Roman_sTests.uploadDownloadTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Roman_sTests" />
+        <item itemvalue="Gradle.Roman_sTests.uploadDownloadTest (1)" />
+        <item itemvalue="Gradle.Roman_sTests.buttons" />
         <item itemvalue="Gradle.Roman_sTests.testRadioButton" />
-        <item itemvalue="Gradle.Roman_sTests.testTextBox" />
-        <item itemvalue="Gradle.Roman_sTests.example" />
+        <item itemvalue="Gradle.Roman_sTests.testTest" />
+        <item itemvalue="Gradle.Roman_sTests" />
       </list>
     </recent_temporary>
   </component>
