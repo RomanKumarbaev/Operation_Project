@@ -108,10 +108,7 @@ click(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']"));
         pause(3000);
 
 
-<<<<<<< HEAD
 
-
-=======
     }
 // Roman's add
     public void uploadFile(String filePath) throws IOException {
@@ -127,5 +124,5 @@ click(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']"));
         uploadPhoto.sendKeys(filePath);
         pause(3000);
     }
->>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
+
 }

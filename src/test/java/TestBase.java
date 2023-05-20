@@ -14,17 +14,17 @@ public class TestBase {
 
 
     }
-<<<<<<< HEAD
 
-  @AfterSuite(alwaysRun = true)
+
+  /*@AfterSuite(alwaysRun = true)
    public void tearDown() {
-       app.stop();
-=======
+       app.stop();}*/
+
 // Roman's add
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         app.stop();
->>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
+
 
     }
 
