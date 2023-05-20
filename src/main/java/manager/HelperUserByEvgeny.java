@@ -16,6 +16,11 @@ public class HelperUserByEvgeny extends HelperBase {
         click(By.xpath("(//div)[13]"));
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+    public void clickOnCheckBox()
+    {
+        click(By.xpath("(//li[@id='item-1'])[1]"));
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
     public void OpenTextBox()
     {
         click(By.xpath("//span[normalize-space()='Text Box']"));
