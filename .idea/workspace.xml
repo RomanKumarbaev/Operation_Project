@@ -58,11 +58,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Gradle.EvgenyTests.CheckBox">
     <configuration name="Alisa_Tests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Gradle.Roman_sTests.uploadDownloadTest (1)">
+    <configuration name="Roman_sTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +85,11 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+<<<<<<< HEAD
             <option value="&quot;Alisa_Tests&quot;" />
+=======
+            <option value="&quot;Roman_sTests&quot;" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
           </list>
         </option>
         <option name="vmOptions" />
@@ -85,18 +99,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Alisa_Tests.clickonElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <configuration name="Roman_sTests.buttons" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+<<<<<<< HEAD
         <option name="scriptParameters" value="--tests &quot;Alisa_Tests.clickonElements&quot;" />
+=======
+        <option name="scriptParameters" value="" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
+<<<<<<< HEAD
+=======
+            <option value="--tests" />
+            <option value="&quot;Roman_sTests.buttons&quot;" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
           </list>
         </option>
         <option name="vmOptions" />
@@ -106,18 +133,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="EvgenyTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <configuration name="Roman_sTests.testRadioButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+<<<<<<< HEAD
         <option name="scriptParameters" value="--tests &quot;EvgenyTests&quot;" />
+=======
+        <option name="scriptParameters" value="" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
+<<<<<<< HEAD
+=======
+            <option value="--tests" />
+            <option value="&quot;Roman_sTests.testRadioButton&quot;" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,18 +167,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="EvgenyTests.CheckBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <configuration name="Roman_sTests.testTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+<<<<<<< HEAD
         <option name="scriptParameters" value="--tests &quot;EvgenyTests.CheckBox&quot;" />
+=======
+        <option name="scriptParameters" value="" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
+<<<<<<< HEAD
+=======
+            <option value="--tests" />
+            <option value="&quot;Roman_sTests.testTest&quot;" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,18 +201,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="EvgenyTests.FillForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <configuration name="Roman_sTests.uploadDownloadTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+<<<<<<< HEAD
         <option name="scriptParameters" value="--tests &quot;EvgenyTests.FillForm&quot;" />
+=======
+        <option name="scriptParameters" value="" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
+<<<<<<< HEAD
+=======
+            <option value="--tests" />
+            <option value="&quot;Roman_sTests.uploadDownloadTest&quot;" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,11 +237,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Gradle.EvgenyTests.CheckBox" />
         <item itemvalue="Gradle.EvgenyTests.FillForm" />
         <item itemvalue="Gradle.EvgenyTests" />
         <item itemvalue="Gradle.Alisa_Tests.clickonElements" />
         <item itemvalue="Gradle.Alisa_Tests (1)" />
+=======
+        <item itemvalue="Gradle.Roman_sTests.uploadDownloadTest (1)" />
+        <item itemvalue="Gradle.Roman_sTests.buttons" />
+        <item itemvalue="Gradle.Roman_sTests.testRadioButton" />
+        <item itemvalue="Gradle.Roman_sTests.testTest" />
+        <item itemvalue="Gradle.Roman_sTests" />
+>>>>>>> 71fcf585bd6c0a4b80f2dd3df1a51c426573b8a0
       </list>
     </recent_temporary>
   </component>
